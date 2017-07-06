@@ -1,5 +1,5 @@
-```Listing the directories within the /user
-
+Listing the directories within the /user
+```
 [ec2-user@ip-172-31-15-71 ~]$ HADOOP_USER_NAME=hdfs hadoop fs -ls /user
 Found 5 items
 drwxrwxrwx   - mapred   hadoop              0 2017-07-06 11:56 /user/history
@@ -10,6 +10,6 @@ drwxrwxr-x   - oozie    oozie               0 2017-07-06 11:58 /user/oozie
 [ec2-user@ip-172-31-15-71 ~]$ ^C
 [ec2-user@ip-172-31-15-71 ~]$ 
 
-Output of CM API call to endpoint ../api/v14/hosts
+
 
 
