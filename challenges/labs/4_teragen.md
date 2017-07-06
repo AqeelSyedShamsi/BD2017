@@ -1,4 +1,5 @@
-```Running teragen as user neymar
+# Running teragen as user neymar
+```
 
 
 [ec2-user@ip-172-31-15-71 ~]$ sudo su neymar
@@ -141,9 +142,10 @@ sys	0m0.209s
 [neymar@ip-172-31-15-71 ec2-user]$ 
 
 
+```
 
-
-Listing the teragen output inside tgen640
+# Listing the teragen output inside tgen640
+```
 [neymar@ip-172-31-15-71 ec2-user]$ hadoop fs -ls /user/neymar/tgen640
 Found 9 items
 -rw-r--r--   3 neymar supergroup          0 2017-07-06 12:45 /user/neymar/tgen640/_SUCCESS
@@ -156,8 +158,10 @@ Found 9 items
 -rw-r--r--   3 neymar supergroup  819200000 2017-07-06 12:44 /user/neymar/tgen640/part-m-00006
 -rw-r--r--   3 neymar supergroup  819200000 2017-07-06 12:44 /user/neymar/tgen640/part-m-00007
 
+```
 
-Showing number of blocks within /user/neymar/tgen640 directory
+# Showing number of blocks within /user/neymar/tgen640 directory
+```
 [neymar@ip-172-31-15-71 ec2-user]$ hdfs fsck /user/neymar/tgen640 -files -blocks | grep blocks
 Connecting to namenode via http://ip-172-31-0-236:50070
 Total blocks (validated):	392 (avg. block size 16718367 B)
