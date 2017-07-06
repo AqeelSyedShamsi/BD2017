@@ -1,4 +1,6 @@
-```sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql scm scm scm_password
+# Writing to db.properties file
+```
+sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql scm scm scm_password
 sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql rman rman rman_password
 sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql hive hive hive_password
 sudo /usr/share/cmf/schema/scm_prepare_database.sh mysql oozie oozie oozie_password
