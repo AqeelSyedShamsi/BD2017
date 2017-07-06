@@ -1,8 +1,9 @@
 
    # Add users with specific UIDs
+   ```
    sudo adduser neymar -u 2010
    sudo adduser ronaldo -u 2016
-
+```
   # Add groups
     sudo groupadd barca
     sudo groupadd merengues
