@@ -1,5 +1,5 @@
 DB Server node
-[ec2-user@ip-172-31-15-71 ~]$ hostname -f
+```[ec2-user@ip-172-31-15-71 ~]$ hostname -f
 ip-172-31-15-71.eu-central-1.compute.internal
 
 
@@ -28,5 +28,5 @@ mysql> show databases;
 12 rows in set (0.00 sec)
 
 mysql> 
-
+```
 
