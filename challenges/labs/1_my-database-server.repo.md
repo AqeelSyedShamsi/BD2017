@@ -1,4 +1,4 @@
-[ec2-user@ip-172-31-0-236 ~]$ mysql --version
+```[ec2-user@ip-172-31-0-236 ~]$ mysql --version
 mysql  Ver 14.14 Distrib 5.5.56, for Linux (x86_64) using readline 5.1
 [ec2-user@ip-172-31-0-236 ~]$ cat /etc/yum.repos.d/mysql-community.repo 
 [mysql-connectors-community]
@@ -37,3 +37,4 @@ baseurl=http://repo.mysql.com/yum/mysql-5.7-community/el/6/$basearch/
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+```
